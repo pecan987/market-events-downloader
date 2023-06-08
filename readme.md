@@ -21,7 +21,7 @@ pip install pandas gspread requests oauth2client gspread-dataframe python-dotenv
 
 ## Setup
 
-1. Create account credentials for a service account following the instructions [here](https://gspread.readthedocs.io/en/latest/oauth2.html#for-bots-using-service-account).
+1. Create account credentials for a service account following the instructions [here](https://cloud.google.com/iam/docs/service-accounts-create).
 2. Save the credentials JSON file
 3. Create spreadsheet in Google Sheets and share it with the email address from the service account credentials
 4. Copy .env.dist to .env and set the environment variables in the file, or use OS environment variables
